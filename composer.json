@@ -1,0 +1,23 @@
+{
+    "name": "lavalite/user",
+    "description": "",
+    "keywords": ["framework", "laravel", "lavalite", "User"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lavalite",
+            "email": "info@lavalite.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-0": {
+            "Lavalite\\User\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
